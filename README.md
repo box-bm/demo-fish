@@ -10,12 +10,14 @@ Demo estática, visualmente orientada a la temática de **pesca, mariscos y mar*
 - `contacto.html` — Datos de contacto, redes sociales y formulario de cotización (simulado, sin backend).
 - `assets/css/styles.css` — Sistema visual compartido (colores, tipografía, componentes).
 - `assets/js/main.js` — Interacciones sin dependencias: menú móvil, filtro de catálogo, formulario simulado.
-- `assets/img/logo.svg` — Emblema de marca en SVG.
+- `assets/img/logo-oficial.png` — Logo oficial del cliente, recortado a fondo transparente para usarse sobre header/hero/footer oscuros.
+- `assets/img/favicon.png` — Versión del logo dentro de una placa circular clara, usada como ícono de pestaña.
+- `assets/img/foto-1.jpeg`, `foto-2.jpeg`, `foto-3.jpeg` — Fotografías provistas por el cliente, optimizadas (redimensionadas/comprimidas) y usadas como fondos del hero, panel "sobre nosotros", historia, proceso sostenible y mapa de contacto.
 - `assets/img/icons.svg` — Set de íconos náuticos/marinos en SVG (sprite reutilizable con `<use>`).
 
 ## Sobre las imágenes
 
-Todo el arte visual (logo, íconos, texturas, olas) está hecho en **SVG/CSS original**, sin descargar imágenes de bancos externos. Esto evita problemas de licencias y hace que la demo cargue rápido y funcione 100% offline una vez publicada — ideal para un GitHub Pages sin dependencias rotas.
+El logo es el **archivo oficial del cliente** (se le quitó el fondo blanco original para que funcione sobre las secciones oscuras del sitio). Las 3 fotografías de ambiente también fueron provistas por el cliente. Íconos, olas y texturas decorativas son SVG/CSS original, sin bancos de imágenes externos.
 
 ## Cómo ver la demo localmente
 

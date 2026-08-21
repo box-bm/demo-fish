@@ -92,7 +92,12 @@ section{position:relative}
 }
 .site-header .container{display:flex;align-items:center;justify-content:space-between;gap:20px}
 .brand{display:flex;align-items:center;gap:12px}
-.brand img{width:48px;height:48px;transition:width .3s ease,height .3s ease}
+.brand img{
+  width:48px;height:48px;object-fit:contain;border-radius:50%;
+  background:radial-gradient(circle at 35% 30%,#fff,var(--cream-100));
+  padding:5px;box-shadow:0 3px 10px rgba(10,31,40,.35),0 0 0 1.5px var(--gold-400);
+  transition:width .3s ease,height .3s ease;
+}
 .brand-text{display:flex;flex-direction:column;line-height:1.1}
 .brand-text strong{font-family:var(--ff-display);font-size:1.3rem;letter-spacing:.06em;color:var(--white)}
 .brand-text span{font-size:.62rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold-300)}
@@ -172,7 +177,11 @@ section{position:relative}
   display:flex;align-items:center;justify-content:center;
   animation:float 6s ease-in-out infinite;
 }
-.hero-emblem img{width:78%}
+.hero-emblem img{
+  width:78%;object-fit:contain;border-radius:50%;
+  background:radial-gradient(circle at 35% 30%,#fff,var(--cream-100));
+  padding:22px;box-shadow:0 20px 50px -12px rgba(0,0,0,.5),0 0 0 2px var(--gold-400);
+}
 .hero-emblem::before,.hero-emblem::after{
   content:"";position:absolute;border-radius:50%;border:1px dashed rgba(232,207,156,.3);
 }
