@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contacto — LA MAR | Pesca del Puerto</title>
+<meta name="description" content="Contacta a LA MAR para cotizar pedidos de pescados y mariscos frescos: teléfono, WhatsApp, correo, ubicación en el puerto y formulario de contacto.">
+<link rel="icon" href="assets/img/logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<header class="site-header solid" data-header>
+  <div class="container">
+    <a href="index.html" class="brand">
+      <img src="assets/img/logo.svg" alt="La Mar — Pesca del Puerto">
+      <span class="brand-text"><strong>LA MAR</strong><span>Pesca &amp; Mariscos</span></span>
+    </a>
+    <nav class="nav-main" data-nav-main>
+      <a href="index.html">Inicio</a>
+      <a href="catalogo.html">Catálogo</a>
+      <a href="nosotros.html">Nosotros</a>
+      <a href="contacto.html" class="active">Contacto</a>
+      <a href="contacto.html" class="btn btn-primary nav-cta">Cotizar pedido</a>
+    </nav>
+    <div class="header-actions">
+      <div class="social-mini">
+        <a href="#" aria-label="Instagram"><svg class="icon"><use href="assets/img/icons.svg#icon-instagram"></use></svg></a>
+        <a href="#" aria-label="Facebook"><svg class="icon"><use href="assets/img/icons.svg#icon-facebook"></use></svg></a>
+        <a href="#" aria-label="WhatsApp"><svg class="icon"><use href="assets/img/icons.svg#icon-whatsapp"></use></svg></a>
+      </div>
+      <a href="contacto.html" class="btn btn-primary" style="padding:12px 22px">Cotizar pedido</a>
+      <button class="nav-toggle" data-nav-toggle aria-label="Abrir menú" aria-expanded="false">
+        <svg class="icon"><use href="assets/img/icons.svg#icon-menu"></use></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <span class="eyebrow">Contacto</span>
+    <h1>Hablemos del sabor del mar</h1>
+    <p>Escríbenos para cotizar un pedido, coordinar una entrega recurrente o resolver cualquier duda sobre nuestro catálogo.</p>
+    <div class="breadcrumb"><a href="index.html">Inicio</a> / <span>Contacto</span></div>
+  </div>
+  <div class="wave-divider">
+    <svg viewBox="0 0 1440 90" preserveAspectRatio="none"><path d="M0,40 C240,90 480,0 720,30 C960,60 1200,10 1440,45 L1440,90 L0,90 Z" fill="#faf6ee"/></svg>
+  </div>
+</section>
+
+<section class="contact-wrap">
+  <div class="container contact-grid">
+
+    <div>
+      <div class="section-head">
+        <span class="eyebrow">Información</span>
+        <h2>Puedes encontrarnos aquí</h2>
+        <p>Atendemos pedidos al detalle y por mayor, de lunes a sábado.</p>
+      </div>
+
+      <div class="contact-cards">
+        <div class="contact-card">
+          <div class="card-icon"><svg class="icon"><use href="assets/img/icons.svg#icon-pin"></use></svg></div>
+          <div><h4>Ubicación</h4><p>Muelle Artesanal, Puerto San José, Escuintla, Guatemala</p></div>
+        </div>
+        <div class="contact-card">
+          <div class="card-icon"><svg class="icon"><use href="assets/img/icons.svg#icon-phone"></use></svg></div>
+          <div><h4>Teléfono / WhatsApp</h4><p>+502 5555 0192</p></div>
+        </div>
+        <div class="contact-card">
+          <div class="card-icon"><svg class="icon"><use href="assets/img/icons.svg#icon-mail"></use></svg></div>
+          <div><h4>Correo</h4><p>ventas@lamar.gt</p></div>
+        </div>
+        <div class="contact-card">
+          <div class="card-icon"><svg class="icon"><use href="assets/img/icons.svg#icon-clock"></use></svg></div>
+          <div><h4>Horario</h4><p>Lunes a sábado, 5:00 a.m. – 5:00 p.m.</p></div>
+        </div>
+      </div>
+
+      <div class="social-links-row" style="margin-bottom:30px">
+        <a href="#"><svg class="icon"><use href="assets/img/icons.svg#icon-instagram"></use></svg> Instagram</a>
+        <a href="#"><svg class="icon"><use href="assets/img/icons.svg#icon-facebook"></use></svg> Facebook</a>
+        <a href="#"><svg class="icon"><use href="assets/img/icons.svg#icon-whatsapp"></use></svg> WhatsApp</a>
+      </div>
+
+      <div class="map-box">
+        <svg class="icon"><use href="assets/img/icons.svg#icon-pin"></use></svg>
+        <strong>Puerto San José</strong>
+        <span>Escuintla, Guatemala — mapa ilustrativo de la demo</span>
+      </div>
+    </div>
+
+    <div>
+      <div class="form-card">
+        <div class="section-head" style="margin-bottom:28px">
+          <span class="eyebrow">Formulario</span>
+          <h2 style="font-size:1.6rem">Solicita tu cotización</h2>
+          <p>Este formulario es una simulación para la demo: no envía datos a ningún servidor.</p>
+        </div>
+
+        <form data-contact-form novalidate>
+          <div class="form-row">
+            <div class="field">
+              <label for="nombre">Nombre completo</label>
+              <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+            </div>
+            <div class="field">
+              <label for="empresa">Empresa / negocio</label>
+              <input type="text" id="empresa" name="empresa" placeholder="Opcional">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="field">
+              <label for="correo">Correo electrónico</label>
+              <input type="email" id="correo" name="correo" placeholder="tucorreo@ejemplo.com" required>
+            </div>
+            <div class="field">
+              <label for="telefono">Teléfono</label>
+              <input type="tel" id="telefono" name="telefono" placeholder="+502 0000 0000" required>
+            </div>
+          </div>
+          <div class="field">
+            <label for="interes">Me interesa</label>
+            <select id="interes" name="interes">
+              <option>Pescados frescos</option>
+              <option>Mariscos</option>
+              <option>Moluscos</option>
+              <option>Pedido mixto / por mayor</option>
+              <option>Otro</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" placeholder="Cuéntanos qué necesitas, cantidades y frecuencia de entrega" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">
+            Enviar solicitud
+            <svg class="icon"><use href="assets/img/icons.svg#icon-arrow"></use></svg>
+          </button>
+          <p class="form-note">Al enviar aceptas ser contactado por nuestro equipo comercial. Formulario de demostración.</p>
+        </form>
+
+        <div class="form-success" data-form-success>
+          <svg class="icon"><use href="assets/img/icons.svg#icon-badge"></use></svg>
+          <div>
+            <strong>¡Gracias! Tu solicitud fue registrada (demo).</strong>
+            <span>En un sitio real, nuestro equipo te contactaría en menos de 24 horas.</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-strip">
+        <div class="faq-card">
+          <h4>¿Hacen entregas a domicilio?</h4>
+          <p>Sí, contamos con ruta propia en frío para restaurantes, tiendas y hogares.</p>
+        </div>
+        <div class="faq-card">
+          <h4>¿Venden por mayor?</h4>
+          <p>Manejamos listas de precios especiales para pedidos recurrentes y exportación.</p>
+        </div>
+        <div class="faq-card">
+          <h4>¿Puedo visitar el puerto?</h4>
+          <p>Coordinamos visitas para clientes que deseen conocer nuestro proceso.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand">
+          <img src="assets/img/logo.svg" alt="La Mar">
+          <span class="brand-text"><strong style="color:#fff">LA MAR</strong><span>Pesca &amp; Mariscos</span></span>
+        </a>
+        <p>Pesca y mariscos frescos del puerto guatemalteco, distribuidos con trazabilidad y cadena de frío desde 15 años atrás.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Instagram"><svg class="icon"><use href="assets/img/icons.svg#icon-instagram"></use></svg></a>
+          <a href="#" aria-label="Facebook"><svg class="icon"><use href="assets/img/icons.svg#icon-facebook"></use></svg></a>
+          <a href="#" aria-label="WhatsApp"><svg class="icon"><use href="assets/img/icons.svg#icon-whatsapp"></use></svg></a>
+          <a href="#" aria-label="TikTok"><svg class="icon"><use href="assets/img/icons.svg#icon-tiktok"></use></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4>Navegación</h4>
+        <div class="footer-links">
+          <a href="index.html">Inicio</a>
+          <a href="catalogo.html">Catálogo</a>
+          <a href="nosotros.html">Nosotros</a>
+          <a href="contacto.html">Contacto</a>
+        </div>
+      </div>
+      <div>
+        <h4>Catálogo</h4>
+        <div class="footer-links">
+          <a href="catalogo.html">Pescados</a>
+          <a href="catalogo.html">Mariscos</a>
+          <a href="catalogo.html">Moluscos</a>
+          <a href="contacto.html">Cotizar por mayor</a>
+        </div>
+      </div>
+      <div>
+        <h4>Contacto</h4>
+        <ul class="footer-contact">
+          <li><svg class="icon"><use href="assets/img/icons.svg#icon-pin"></use></svg><span>Muelle Artesanal, Puerto San José, Escuintla, Guatemala</span></li>
+          <li><svg class="icon"><use href="assets/img/icons.svg#icon-phone"></use></svg><span>+502 5555 0192</span></li>
+          <li><svg class="icon"><use href="assets/img/icons.svg#icon-mail"></use></svg><span>ventas@lamar.gt</span></li>
+          <li><svg class="icon"><use href="assets/img/icons.svg#icon-clock"></use></svg><span>Lun – Sáb, 5:00 – 17:00</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year>2026</span> LA MAR — Pesca del Puerto. Sitio demo con fines ilustrativos.</span>
+      <span>Formulario sin envío real de datos.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

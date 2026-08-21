@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" role="img" aria-labelledby="logoTitle">
+  <title id="logoTitle">La Mar — Pesca del Puerto</title>
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e8cf9c"/>
+      <stop offset="0.5" stop-color="#c8983f"/>
+      <stop offset="1" stop-color="#9c7327"/>
+    </linearGradient>
+    <linearGradient id="navy" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1f5c6b"/>
+      <stop offset="1" stop-color="#0d2530"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="110" cy="110" r="104" fill="url(#navy)"/>
+  <circle cx="110" cy="110" r="104" fill="none" stroke="url(#gold)" stroke-width="3"/>
+  <circle cx="110" cy="110" r="96" fill="none" stroke="url(#gold)" stroke-width="1" opacity="0.6"/>
+
+  <!-- compass rays -->
+  <g stroke="url(#gold)" stroke-width="2" opacity="0.7">
+    <path d="M110 30v18M110 172v18M30 110h18M172 110h18"/>
+    <path d="M55 55l13 13M152 152l13 13M55 165l13-13M152 68l13-13" stroke-width="1.4"/>
+  </g>
+
+  <!-- marlins -->
+  <g fill="none" stroke="url(#gold)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M40 96c10-22 26-34 44-36-6 8-9 16-9 26 0 9 3 17 9 25-18-2-34-14-44-15Z"/>
+    <path d="M40 96c-10 6-16 14-18 20 8-1 16-4 22-9" />
+    <path d="M84 60c6-8 14-13 20-13-3 5-3 11 0 16" />
+    <path d="M180 96c-10-22-26-34-44-36 6 8 9 16 9 26 0 9-3 17-9 25 18-2 34-14 44-15Z"/>
+    <path d="M180 96c10 6 16 14 18 20-8-1-16-4-22-9" />
+    <path d="M136 60c-6-8-14-13-20-13 3 5 3 11 0 16" />
+  </g>
+
+  <!-- anchor -->
+  <g fill="none" stroke="url(#gold)" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="110" cy="72" r="7"/>
+    <path d="M110 79v58"/>
+    <path d="M96 92h28"/>
+    <path d="M78 108c0 20 14 36 32 36s32-16 32-36"/>
+    <path d="M78 108l-9-6M78 108l-9 6M142 108l9-6M142 108l9 6"/>
+  </g>
+
+  <!-- ribbon band with text -->
+  <rect x="34" y="122" width="152" height="30" fill="#0d2530" stroke="url(#gold)" stroke-width="1.5"/>
+  <text x="110" y="143" text-anchor="middle" font-family="Georgia, 'Playfair Display', serif" font-size="22" letter-spacing="4" fill="url(#gold)" font-weight="700">LA MAR</text>
+
+  <text x="110" y="182" text-anchor="middle" font-family="Georgia, serif" font-size="9" letter-spacing="3" fill="#e8cf9c" opacity="0.85">PESCA · PUERTO · GUATEMALA</text>
+</svg>
